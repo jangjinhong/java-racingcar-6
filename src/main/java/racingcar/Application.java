@@ -1,8 +1,13 @@
 package racingcar;
 
+import racingcar.controller.RacingCarController;
+
+
 public class Application {
     public static void main(String[] args) {
-        // TODO: 프로그램 구현
-        System.out.println("hello 안녕하세요");
+        RacingCarController racingcarController = new RacingCarController();
+
+        //System.out.println(racingcarController.promptForMoveCount());
+        racingcarController.run();
     }
 }
