@@ -1,11 +1,11 @@
 package racingcar;
 
-import racingcar.controller.RacingcarController;
+import racingcar.controller.RacingCarController;
 
 
 public class Application {
     public static void main(String[] args) {
-        RacingcarController racingcarController = new RacingcarController();
+        RacingCarController racingcarController = new RacingCarController();
 
         //System.out.println(racingcarController.promptForMoveCount());
         racingcarController.run();
